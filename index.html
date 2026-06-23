@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top Class Barbershop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">TOP CLASS<span>BARBERSHOP</span></a>
+      <ul class="nav__links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#locations">Locations</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#locations" class="nav__cta">Book Now</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#locations" class="mobile-link">Locations</a>
+      <a href="#reviews" class="mobile-link">Reviews</a>
+      <a href="#locations" class="mobile-link mobile-link--cta">Book Now</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Falls Church &amp; Alexandria, VA</p>
+      <h1 class="hero__title">Top Class<br /><em>Barbershop</em></h1>
+      <p class="hero__sub">Precision cuts. Clean fades. A community you belong to.</p>
+      <div class="hero__rating">
+        <div class="stars">★★★★<span class="half-star">★</span></div>
+        <span>4.5 &nbsp;·&nbsp; 151 Reviews</span>
+      </div>
+      <div class="hero__actions">
+        <a href="#locations" class="btn btn--primary">Find a Location</a>
+        <a href="#services" class="btn btn--outline">Our Services</a>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- TAGLINE STRIP -->
+  <div class="strip">
+    <div class="strip__inner">
+      <span>Precision Cuts</span>
+      <span class="dot">●</span>
+      <span>Clean Fades</span>
+      <span class="dot">●</span>
+      <span>Beard Grooming</span>
+      <span class="dot">●</span>
+      <span>Hair Coloring</span>
+      <span class="dot">●</span>
+      <span>Community Vibes</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <div class="container about__grid">
+      <div class="about__text">
+        <p class="section-label">Who We Are</p>
+        <h2 class="section-title">More Than a Cut.<br />A Family.</h2>
+        <p>Top Class Barbershop isn't just a place to get your hair done — it's the heartbeat of the community. From first haircuts to fresh fades before the big day, we bring skill, care, and good energy to every chair.</p>
+        <p>With two locations serving Northern Virginia, our experienced barbers deliver consistent, quality cuts tailored to you. Walk-ins welcome. Appointments available.</p>
+      </div>
+      <div class="about__stats">
+        <div class="stat">
+          <span class="stat__num">10+</span>
+          <span class="stat__label">Years Serving the Community</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">2</span>
+          <span class="stat__label">Locations in Northern VA</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">151</span>
+          <span class="stat__label">Five-Star Reviews</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">4.5★</span>
+          <span class="stat__label">Average Rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <p class="section-label center">What We Offer</p>
+      <h2 class="section-title center">Our Services</h2>
+      <div class="services__grid">
+
+        <div class="service-card">
+          <div class="service-card__icon">✂</div>
+          <h3>Haircut</h3>
+          <p>Classic cuts, modern styles, and everything in between. Tailored to your face shape and lifestyle.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">🪒</div>
+          <h3>Beard Trim</h3>
+          <p>Sharp lines and clean edges. We shape your beard to complement your look.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">💆</div>
+          <h3>Beard Maintenance</h3>
+          <p>Full beard grooming service — trimming, shaping, and conditioning for a healthy beard.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">✦</div>
+          <h3>Beard Conditioning</h3>
+          <p>Deep conditioning treatment to soften and nourish your beard for a premium feel.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">🎨</div>
+          <h3>Hair Coloring</h3>
+          <p>Bold colors, natural coverage, or subtle highlights — our barbers do it all.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">◈</div>
+          <h3>Beard Dyeing</h3>
+          <p>Color your beard to match your style. Natural tones or something bold — your call.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">⬡</div>
+          <h3>Buzz Cut</h3>
+          <p>Clean, fast, and sharp. The classic buzz cut executed with precision.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATIONS -->
+  <section class="locations" id="locations">
+    <div class="container">
+      <p class="section-label center">Find Us</p>
+      <h2 class="section-title center">Our Locations</h2>
+      <div class="locations__grid">
+
+        <!-- Location 1 -->
+        <div class="location-card">
+          <div class="location-card__badge">Location 1</div>
+          <h3 class="location-card__name">Falls Church</h3>
+          <p class="location-card__address">
+            102 E Annandale Rd<br />Falls Church, VA 22046
+          </p>
+          <a href="tel:7032379834" class="location-card__phone">(703) 237-9834</a>
+
+          <div class="hours">
+            <h4>Hours</h4>
+            <table>
+              <tr><td>Monday</td><td>9 AM – 8 PM</td></tr>
+              <tr><td>Tuesday</td><td>9 AM – 8 PM</td></tr>
+              <tr><td>Wednesday</td><td>9 AM – 8 PM</td></tr>
+              <tr><td>Thursday</td><td>9 AM – 8 PM</td></tr>
+              <tr><td>Friday</td><td>9 AM – 8 PM</td></tr>
+              <tr class="hours__highlight"><td>Saturday</td><td>8 AM – 5 PM</td></tr>
+              <tr><td>Sunday</td><td>10 AM – 5 PM</td></tr>
+            </table>
+          </div>
+
+          <a href="https://maps.google.com/?q=102+E+Annandale+Rd+Falls+Church+VA+22046" target="_blank" rel="noopener" class="btn btn--primary btn--full">Get Directions</a>
+        </div>
+
+        <!-- Location 2 -->
+        <div class="location-card">
+          <div class="location-card__badge">Location 2</div>
+          <h3 class="location-card__name">Alexandria</h3>
+          <p class="location-card__address">
+            4105 Duke St<br />Alexandria, VA 22304
+          </p>
+          <a href="tel:7037511703" class="location-card__phone">(703) 751-1703</a>
+
+          <div class="hours">
+            <h4>Hours</h4>
+            <table>
+              <tr><td>Monday</td><td>10 AM – 6 PM</td></tr>
+              <tr><td>Tuesday</td><td>10 AM – 7:30 PM</td></tr>
+              <tr><td>Wednesday</td><td>10 AM – 7:30 PM</td></tr>
+              <tr><td>Thursday</td><td>10 AM – 7:30 PM</td></tr>
+              <tr><td>Friday</td><td>10 AM – 7 PM</td></tr>
+              <tr class="hours__highlight"><td>Saturday</td><td>10 AM – 7 PM</td></tr>
+              <tr><td>Sunday</td><td>11 AM – 5 PM</td></tr>
+            </table>
+          </div>
+
+          <a href="https://maps.google.com/?q=4105+Duke+St+Alexandria+VA+22304" target="_blank" rel="noopener" class="btn btn--primary btn--full">Get Directions</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <p class="section-label center">What People Say</p>
+      <h2 class="section-title center">Customer Reviews</h2>
+      <div class="reviews__grid">
+
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">"This shop is much more than a barber shop. Top class is a true family and the heartbeat of the Falls Church community. I've been bringing my son here since he was 2 — he's almost 8 now. Always laughing, smiling and enjoying each other and the customers."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">B</div>
+            <div>
+              <strong>Brandy Sunshine</strong>
+              <span>Local Guide · 74 reviews</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">"I've been to many high-rated barber shops only to find out the hard way that their barbers can't cut hair. This shop puts out consistent quality sharp cuts. Ask for Tee. He's been my barber for 10 years. He's a master at what he does."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">E</div>
+            <div>
+              <strong>Educated Minds</strong>
+              <span>9 reviews</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">"RED is so kind and sweet with my brother who has special needs. Gave him the perfect haircut and he was cheesing the entire time."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">A</div>
+            <div>
+              <strong>Abimbola Oshodi</strong>
+              <span>Local Guide · 49 reviews</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">"Andre gave me the best haircut I've had in quite a while. The amount of detail put in was incredible. He also was great to talk to."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">R</div>
+            <div>
+              <strong>Rohit Gangupantulu</strong>
+              <span>Local Guide · 18 reviews</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="reviews__cta">
+        <a href="https://maps.google.com/search/Top+Class+Barbershop" target="_blank" rel="noopener" class="btn btn--outline">Read All 151 Reviews on Google</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-banner__overlay"></div>
+    <div class="cta-banner__content">
+      <h2>Walk-Ins Welcome.<br />Appointments Available.</h2>
+      <p>Two locations to serve you across Northern Virginia.</p>
+      <div class="cta-banner__actions">
+        <a href="tel:7032379834" class="btn btn--primary">Call Falls Church</a>
+        <a href="tel:7037511703" class="btn btn--outline">Call Alexandria</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <span class="footer__logo">TOP CLASS<br /><em>BARBERSHOP</em></span>
+        <p>Precision cuts and community vibes in Northern Virginia since day one.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Falls Church</h4>
+        <p>102 E Annandale Rd<br />Falls Church, VA 22046</p>
+        <a href="tel:7032379834">(703) 237-9834</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Alexandria</h4>
+        <p>4105 Duke St<br />Alexandria, VA 22304</p>
+        <a href="tel:7037511703">(703) 751-1703</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Services</h4>
+        <ul>
+          <li>Haircut</li>
+          <li>Beard Trim</li>
+          <li>Beard Maintenance</li>
+          <li>Hair Coloring</li>
+          <li>Beard Dyeing</li>
+          <li>Buzz Cut</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2025 Top Class Barbershop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
